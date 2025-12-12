@@ -16,7 +16,7 @@ import streamlit as st
 
 # Try to import the legacy gensim summarization keywords module.
 # Newer versions of gensim (>=4) removed this module, so we handle
-# the ImportError gracefully and provide a modern fallback (YAKE).
+# the ImportError gracefully and provide a modern fallback (YAKE).   
 try:
     from gensim.summarization import keywords as gensim_keywords
     GENSIM_AVAILABLE = True
